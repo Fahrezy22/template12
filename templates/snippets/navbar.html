@@ -1,0 +1,29 @@
+<!-- sidebar  -->
+<!-- sidebar part here -->
+<nav class="sidebar pr-2">
+  <div class="logo d-flex justify-content-between">
+    <a href="">
+      <h1 class="deep_blue_2"> <i class="fas fa-graduation-cap"></i> SIBEMA</h1>
+    </a>
+    <div class="sidebar_close_icon d-lg-none">
+      <i class="ti-close"></i>
+    </div>
+  </div>
+
+  <ul id="sidebar_menu">
+    <li>
+      <a class="" href="{% url 'dashboard:index' %}">
+        <i class="fas fa-th"></i>
+        <span>Dashboard</span>
+      </a>
+    </li>
+    <li>
+      <a class="" href="{% url 'student:list' %}">
+        <i class="fas fa-users"></i>
+        <span>Mahasiswa</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+<!-- sidebar part end -->
+<!--/ sidebar  -->
